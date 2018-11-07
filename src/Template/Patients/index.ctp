@@ -13,7 +13,7 @@
         <thead>
             <tr>
                 <th scope="col"><?= $this->Paginator->sort('id') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('carrier_id') ?></th>
+                
                 <th scope="col"><?= $this->Paginator->sort('name') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('street_adrress') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('city') ?></th>
@@ -30,7 +30,7 @@
             <?php foreach ($patients as $patient): ?>
             <tr>
                 <td><?= $this->Number->format($patient->id) ?></td>
-                <td><?= $patient->has('carrier') ? $this->Html->link($patient->carrier->name, ['controller' => 'Carriers', 'action' => 'view', $patient->carrier->id]) : '' ?></td>
+              
                 <td><?= h($patient->name) ?></td>
                 <td><?= h($patient->street_adrress) ?></td>
                 <td><?= h($patient->city) ?></td>
