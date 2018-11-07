@@ -1,5 +1,30 @@
 # CakePHP Application Skeleton
 
+#patientCare # CakePHP Application
+<ul>
+<li>Description du projet</li>
+<li>Application description</li>
+<li>used to manage patients at a doctors patients or hospital</li>
+<li>Manage patients,doctors,appointments and more</li>
+<li>Features :</li>
+<li>manage patients</li>
+<li>manage doctors</li>
+<li>manage appointments</li>
+<li>manage insurance carriers</li>
+<li>manage invoices</li>
+<li>Admin login system</li>
+<li>====</li>
+<li>Projects steps</li>
+<li>1-CakePHP & DB Setup</li>
+<li>2-Navigation and Adding Data</li>
+<li>3-Formatting Display Data</li>
+<li>4-User Login Functionality</li>
+<li>5-Logout & Access Control</li>
+<li>
+The content of the database has many tables includes a users table with name, email, password,”created at”,”modified at” columns, and a patient table with name, street address, city, state, zip code, email, phone, created, modified columns, and carrier table with name, carrier code, created, modified columns, doctor's table with name, accepting patients, created, modified columns, appointments table with appointments dates and invoices 
+</li>
+</ul>
+
 [![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
 [![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
 
